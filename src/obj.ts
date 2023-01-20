@@ -6,7 +6,7 @@
  */
 export function assignObjDefaultValue<T extends object>(obj: T, defaultValue: T): T {
   for (const key in defaultValue) {
-    obj[key] === undefined || (obj[key] = defaultValue[key])
+    obj[key] === undefined && (obj[key] = defaultValue[key])
   }
   return obj
 }
