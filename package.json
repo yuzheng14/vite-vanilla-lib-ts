@@ -1,5 +1,5 @@
 {
-  "name": "vite-vanilla-lib-ts",
+  "name": "@yuzheng14/utils",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,6 +22,7 @@
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
+    "bumpp": "^8.2.1",
     "cz-git": "^1.4.1",
     "czg": "^1.4.1",
     "eslint": "^8.32.0",
